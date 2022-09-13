@@ -10,9 +10,17 @@ export default function Home() {
   return (
     <div>
       <Head>
-        <title>Clint | Front-End Developer</title>
+        <title>Mulagi | Software Developer</title>
         <meta name="description" content="I’m a front-end web developer specializing in building (and occasionally designing) exceptional digital experiences." />
-        <link rel="icon" href="/fav.png" />
+      
+        <meta property="og:title" content="best developer in Kenya">
+        </meta>
+        <meta property="og:description" content="Best practices in software development">
+        </meta>
+        <meta property="og:url" content="">
+
+        </meta><meta property="og:type" content="website"></meta>
+        <link rel="icon" href="/mulagiLogo.png" />
       </Head>
     <Main />
     <About />

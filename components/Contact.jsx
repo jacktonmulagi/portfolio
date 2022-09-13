@@ -5,7 +5,7 @@ import { AiOutlineMail } from 'react-icons/ai';
 import { BsFillPersonLinesFill } from 'react-icons/bs';
 import { FaGithub, FaLinkedinIn } from 'react-icons/fa';
 import { HiOutlineChevronDoubleUp } from 'react-icons/hi';
-import ContactImg from '../public/assets/contact.jpg'
+import ContactImg from '../public/assets/jackton.jpeg'
 
 const Contact = () => {
 
@@ -28,18 +28,17 @@ const Contact = () => {
                 />
               </div>
               <div>
-                <h2 className='py-2'>Clint Briley</h2>
-                <p>Front-End Developer</p>
+                <h2 className='py-2'>Mulagi Jackton</h2>
+                <p>Software Engineer</p>
                 <p className='py-4'>
-                  I am available for freelance or full-time positions. Contact
-                  me and let&apos;s talk.
+                 Currently front-end developer at Africom media limited company
                 </p>
               </div>
               <div>
                 <p className='uppercase pt-8'>Connect With Me</p>
                 <div className='flex items-center justify-between py-4'>
                   <a
-                    href='https://www.linkedin.com/in/clint-briley-50056920a/'
+                    href='https://www.linkedin.com/in/jackton-mulagi-a622b2176/'
                     target='_blank'
                     rel='noreferrer'
                   >
@@ -48,7 +47,7 @@ const Contact = () => {
                     </div>
                   </a>
                   <a
-                    href='https://github.com/fireclint'
+                    href='https://github.com/jacktonmulagi'
                     target='_blank'
                     rel='noreferrer'
                   >

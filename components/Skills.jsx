@@ -1,12 +1,12 @@
 import Image from 'next/image';
 import React from 'react';
-import Html from '../public/assets/skills/html.png';
-import Css from '../public/assets/skills/css.png';
+import Html from '../public/assets/skills/python.png';
+import Css from '../public/assets/skills/java.png';
 import Javascript from '../public/assets/skills/javascript.png';
 import ReactImg from '../public/assets/skills/react.png';
 import Tailwind from '../public/assets/skills/tailwind.png';
 import Github from '../public/assets/skills/github1.png';
-import Firebase from '../public/assets/skills/firebase.png';
+import Firebase from '../public/assets/skills/figma.png';
 import NextJS from '../public/assets/skills/nextjs.png'
 import AWS from '../public/assets/skills/aws.png';
 
@@ -25,7 +25,7 @@ const Skills = () => {
                 <Image src={Html} width='64px' height='64px' alt='/' />
               </div>
               <div className='flex flex-col items-center justify-center'>
-                <h3>HTML</h3>
+                <h3>Python</h3>
               </div>
             </div>
           </div>
@@ -35,7 +35,7 @@ const Skills = () => {
                 <Image src={Css} width='64px' height='64px' alt='/' />
               </div>
               <div className='flex flex-col items-center justify-center'>
-                <h3>CSS</h3>
+                <h3>Java</h3>
               </div>
             </div>
           </div>
@@ -75,7 +75,7 @@ const Skills = () => {
                 <Image src={Firebase} width='64px' height='64px' alt='/' />
               </div>
               <div className='flex flex-col items-center justify-center'>
-                <h3>Firebase</h3>
+                <h3>UI/UX</h3>
               </div>
             </div>
           </div>

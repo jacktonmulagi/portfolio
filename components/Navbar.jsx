@@ -5,7 +5,7 @@ import { AiOutlineClose, AiOutlineMail, AiOutlineMenu } from 'react-icons/ai';
 import { FaGithub, FaLinkedinIn } from 'react-icons/fa';
 import { BsFillPersonLinesFill } from 'react-icons/bs';
 // import { useRouter } from 'next/router';
-import NavLogo from '../public/assets/navLogo.png'
+import NavLogo from '../public/assets/navLogo.svg'
 
 const Navbar = () => {
   const [nav, setNav] = useState(false);
@@ -177,7 +177,7 @@ const Navbar = () => {
               </p>
               <div className='flex items-center justify-between my-4 w-full sm:w-[80%]'>
                 <a
-                  href='https://www.linkedin.com/in/clint-briley-50056920a/'
+                  href='https://www.linkedin.com/in/jackton-mulagi-a622b2176/'
                   target='_blank'
                   rel='noreferrer'
                 >
@@ -186,7 +186,7 @@ const Navbar = () => {
                   </div>
                 </a>
                 <a
-                  href='https://github.com/fireclint'
+                  href='https://github.com/jacktonmulagi'
                   target='_blank'
                   rel='noreferrer'
                 >

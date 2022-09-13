@@ -1,7 +1,7 @@
 import React from 'react';
 import Image from 'next/image';
 import Link from 'next/link';
-import AboutImg from '../public/assets/about.jpg';
+import AboutImg from '../public/assets/jackton.jpeg';
 
 const About = () => {
   return (
@@ -15,21 +15,9 @@ const About = () => {
           <p className='py-2 text-gray-600'>
             / / I am not your average developer
           </p>
+    
           <p className='py-2 text-gray-600'>
-            I have spent the last 12 years in the fire service working as a
-            professional firefighter/paramedic. I have always had a knack for
-            technology and working with computers. In 2019 I started working
-            with HTML and CSS to make some minor edits on a small business
-            website that I was operating. What I thought was just a few small
-            edits turned into a love for programming.
-          </p>
-          <p className='py-2 text-gray-600'>
-            Fascinated with how intricate programming can be I was quickly drawn
-            to learn more. I started learning javascript and was even more
-            enthused with making websites interactive. I then started
-            freelancing for e-commerce companies on the Shopify platform. I am
-            now spending my time building projects with React JS, Firebase, and
-            learning new technologies.
+            Detail-oriented, organized and meticulous employee.Works at fast pace to meet tight deadlines.Enthusiastic team player ready to contribute to company success.Amenable Software Engineer gifted at translating basic client requirements into technical development plans.Communicates productively with both technical and non-technical personnel and clients.Friendly provider of deep programming knowledge and invaluable final products.Forward-thinking Software Engineer with background working productively in dynamic environments.Fluent in Javascript,python and java programming languages used to develop software.Proud team player focused on achieving project objectives with speed and accuracy.Versatile Software Engineer talented at contributing to team-developed projects.Collaborative designer of useful solutions and perfectly customized products.Knowledgeable in programming and gifted at creating unique art.Customer-focused software professional with superior communication skills and expertise in various technical platforms.Understands and meets both client and employer needs and develops highly functional, robust and easy-to-use applications.Excels as hands-on developer and oversees work of software teams.Complex problem-solver with analytical and driven mindset.Dedicated to achieving demanding development objectives according to tight schedules while producing impeccable code.To seek and maintain full-time position that offers professional challenges utilizing interpersonal skills, excellent time management and problem-solving skills.Organized and dependable candidate successful at managing multiple priorities with a positive attitude.Willingness to take on added responsibilities to meet team goals.
           </p>
           <Link href='/#projects'>
             <p className='py-2 text-gray-600 underline cursor-pointer'>

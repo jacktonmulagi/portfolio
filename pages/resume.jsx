@@ -6,28 +6,28 @@ const resume = () => {
   return (
     <>
       <Head>
-        <title>Clint | Resume</title>
+        <title>Mulagi | Resume</title>
         <meta
           name='description'
           content='I’m a front-end web developer specializing in building (and occasionally designing) exceptional digital experiences.'
         />
-        <link rel='icon' href='/fav.png' />
+        <link rel="icon" href="/mulagiLogo.png" />
       </Head>
 
       <div className='max-w-[940px] mx-auto p-2 pt-[120px]'>
         <h2 className='text-center'>Resume</h2>
         <div className='bg-[#d0d4d6] my-4 p-4 w-full flex justify-between items-center'>
-          <h2 className='text-center'>Clint Briley</h2>
+          <h2 className='text-center'>Mulagi Jackton</h2>
           <div className='flex'>
             <a
-              href='https://www.linkedin.com/in/clint-briley-50056920a/'
+              href='https://www.linkedin.com/in/jackton-mulagi-a622b2176/'
               target='_blank'
               rel='noreferrer'
             >
               <FaLinkedinIn size={20} style={{ marginRight: '1rem' }} />
             </a>
             <a
-              href='https://github.com/fireclint'
+              href='https://github.com/jacktonmulagi'
               target='_blank'
               rel='noreferrer'
             >
@@ -66,10 +66,10 @@ const resume = () => {
           <p className='py-2'>
             <span className='font-bold'>Technical Skills</span>
             <span className='px-2'>|</span>Front-End Web Developer
-            <span className='px-2'>|</span> HTML <span className='px-2'>|</span>
-            CSS <span className='px-2'>|</span>React
+            <span className='px-2'>|</span> Python (flask) <span className='px-2'>|</span>
+            UI/UX <span className='px-2'>|</span>React
             <span className='px-2'>|</span>Tailwind
-            <span className='px-2'>|</span> Firebase
+            <span className='px-2'>|</span> java (spring boot)
           </p>
           <p className='py-2'>
             <span className='font-bold'>Amazon Web Services</span>
@@ -85,92 +85,81 @@ const resume = () => {
         <div className='py-6'>
           <p className='italic'>
             <span className='font-bold italic'>
-              BIGCOMMERCE, SHOPIFY, WOOCOMMERCE
+              Front End Developer
             </span>
-            <span className='px-2'>|</span>Dallas, TX
+            <span className='px-2'>|</span>Nairobi,Kenya
           </p>
-          <p className='py-1 italic'>Freelance Work (2013 - Current)</p>
+          <p className='py-1 italic'>Africom media limited (Aug 2021 - Current)</p>
           <ul className='list-disc list-outside px-7 py-1 leading-relaxed'>
             <li>
-              Ensured comprehensive mobile responsive UI layouts with
-              understanding of HTML, CSS, and JavaScript.
+              Followed SDLC best practices within Agile environment to produce rapid iterations for clients.
             </li>
             <li>
-              Troubleshoot issues and concerns, configure operation and analytic
-              plugins, and design changes as needed.
+              Collaborated with stakeholders during development processes to confirm creative proposals and design best practices.
             </li>
             <li>
-              Worked directly with a diverse client base to understand and
-              implement multiple technologies and programs.
+              Improved tools to boost user interaction and deliver design versatility.
             </li>
             <li>
-              Platform migration managing DNS servers as well as MX records and
-              ensuring a smooth migration process.
+              Designing UI/UX
+            </li>
+            <li>
+              Coded using HTML, CSS and JavaScript to develop features for both mobile and desktop platforms.
+            </li>
+            <li>
+              Researched emerging web technologies and trends for possible incorporation into sites.
+            </li>
+            <li>
+              Tested web-based product functionality and delivered iterations to customer.
+            </li>
+            <li>
+              Produced websites compatible with multiple browsers.
+            </li>
+            <li>
+              Use regulatory and compliance standards for user interface designs.
+            </li>
+            <li>
+              Worked cooperatively with client services, sales and design team in deadline-driven environment.
+            </li>
+            <li>
+              Teamed on user-centric design strategy in translation of UX and business requirements into coded solutions.
             </li>
           </ul>
         </div>
         {/* Experience */}
         <div className='py-6'>
           <p className='italic'>
-            <span className='font-bold'>Preston EMS</span>
-            <span className='px-2'>|</span>Grayson County, TX
+            <span className='font-bold'>Technical Assistant</span>
+            <span className='px-2'>|</span>Nairobi,Kenya 
           </p>
-          <p className='py-1 italic'>Paramedic (2019 - Current)</p>
+          <p className='py-1 italic'>Epitech solutions  (Jan 2020 - May 2021)</p>
           <ul className='list-disc list-outside px-7 py-1 leading-relaxed'>
             <li>
-              Lead paramedic on an ALS 911 ambulance covering rural Grayson
-              County.
+              Installed technical hardware and software in deskside support environment.
             </li>
             <li>
-              Work surrounding departments organizing treatment protocols and
-              facilitate hands on training operations.
+              Gathered, organized and distributed technical documentation.
             </li>
             <li>
-              Manage high stress 911 situations such as medical emergencies,
-              traumatic emergencies, and water accidents
+              Liaised with customers, communicating and resolving problems and concerns.
             </li>
             <li>
-              Public outreach and relations for the municipality from healthcare
-              awareness to training methods.
+              Recorded information surrounding system failure to assist future rebuilds.
             </li>
+            <li>
+              Troubleshot malfunctioning hardware and software deployments to support nonstop operations.
+            </li>
+            <li>
+              Provided technical guidance and support to team members.
+            </li>
+            <li>
+              Researched common technology performance issues to assist with diagnoses.
+            </li>
+  
           </ul>
         </div>
         {/* Experience */}
-        <div className='py-6'>
-          <p className='italic'>
-            <span className='font-bold'>CITY OF SHERMAN, TX</span>
-            <span className='px-2'>|</span>Sherman, TX
-          </p>
-          <p className='py-1 italic'>Paramedic / Firefighter (2010 – 2019)</p>
-          <ul className='list-disc list-outside px-7 py-1 leading-relaxed'>
-            <li>
-              Ensured proper implementation of firefighting techniques and
-              practices including controlling and extinguishing fires, operating
-              hose lines, and fire ground operations, ventilation, and search
-              and rescue.
-            </li>
-            <li>
-              Oversaw comprehensive understanding, operation, and maintenance of
-              fire engines, ladder trucks, technical rescue apparatus, and
-              response trailers.
-            </li>
-            <li>
-              Performed ALS techniques as needed within emergency situations
-              including the use of an esophageal or dual lumen airway device and
-              oral intubation using laryngoscopy.
-            </li>
-            <li>
-              Collaborated with a talented and high performing team of
-              firefighters in high pressure and stressful situations as needed.
-            </li>
-            <li>
-              Utilized proven and demonstrated knowledge of multiple
-              certifications including Pediatric Advanced Life Support,
-              Prehospital Trauma Life Support, and Advanced Cardiac Life
-              Support, among others.
-            </li>
-          </ul>
-        </div>
+       
       </div>
     </>
   );
