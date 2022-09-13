@@ -2,7 +2,7 @@ import Image from 'next/image';
 import Link from 'next/link';
 import React, { useState } from 'react';
 import { AiOutlineMail } from 'react-icons/ai';
-import { BsFillPersonLinesFill } from 'react-icons/bs';
+import { BsFillPersonLinesFill, BsWhatsapp } from 'react-icons/bs';
 import { FaGithub, FaLinkedinIn } from 'react-icons/fa';
 import { HiOutlineChevronDoubleUp } from 'react-icons/hi';
 import ContactImg from '../public/assets/jackton.jpeg'
@@ -31,7 +31,7 @@ const Contact = () => {
                 <h2 className='py-2'>Mulagi Jackton</h2>
                 <p>Software Engineer</p>
                 <p className='py-4'>
-                 Currently front-end developer at Africom media limited company
+                  Currently front-end developer at Africom media limited company
                 </p>
               </div>
               <div>
@@ -59,13 +59,16 @@ const Contact = () => {
                   <div className='rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-110 ease-in duration-300'>
                     <AiOutlineMail />
                   </div>
-                  <Link href='/resume'>
-                    <a>
-                      <div className='rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-110 ease-in duration-300'>
-                        <BsFillPersonLinesFill />
-                      </div>
-                    </a>
-                  </Link>
+
+                  <a a
+                    href={"https://api.whatsapp.com/send?phone=%2B254700309590&text&app_absent=0"}
+                    target='_blank'
+                    rel='noreferrer'>
+                    <div className='rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-110 ease-in duration-300'>
+                      <BsWhatsapp />
+                    </div>
+                  </a>
+
                 </div>
               </div>
             </div>
